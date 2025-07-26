@@ -38,6 +38,7 @@ function addTask(button){
         }
 
         inputTask.value = ''
+        date.value = ''
 
         completed.addEventListener('change', function(){
             if(completed.checked){
