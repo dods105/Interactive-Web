@@ -6,3 +6,4 @@ Completed
 3. Notebook App
 4. Weather App
 5. Caesar Cipher
+6. Digital Clock
