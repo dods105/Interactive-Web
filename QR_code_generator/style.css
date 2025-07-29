@@ -1,0 +1,58 @@
+.card, body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(139, 87, 96);
+    overflow: hidden;
+}
+
+.card{
+    height: auto;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.315);
+    gap: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.img-container{
+    width: 150px;
+    height: 150px;
+   display: none;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+}
+
+input{
+    background-color: rgba(221, 217, 216, 0.767);
+}
+
+button{
+    background-color: rgb(173, 110, 120);
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: rgb(206, 156, 164);
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(173, 110, 120);
+}
