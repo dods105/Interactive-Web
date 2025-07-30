@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+    max-width: 400px;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+input{
+    background-color: rgb(228, 225, 225);
+}
+
+input, button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.container{
+    border-left: solid black 2px;
+    padding: 0 5px;
+}
+
+#box{
+    display: none;
+}
+
+#not-found{
+    font-size: small;
+    color: rgb(155, 152, 152);
+}
+
+#box > p,
+.container > p{
+    font-size: medium;
+}
+
+#word{
+    font-size: 25px;
+}
+
+h4{
+    margin-bottom: 0;
+}
